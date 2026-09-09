@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf64d404fb573b64d870c9eaa51b4001, type: 3}
+  m_Name: CarConfig
+  m_EditorClassIdentifier: Main.App::Driver.Data.Scriptable.CarConfig
+  CarCharacterConfig:
+    <MaxHealth>k__BackingField: 50
+    ForwardSpeed: 14
+    SwayAmplitude: 2.2
+    SwayFrequency: 0.06
+    SwayRampDistance: 14
+    TurnResponse: 1
+    BankAngle: 6
+    RotationLerp: 8
+  Turret:
+    BulletPrefab: {fileID: 800482922241090462, guid: 9563bbc69bcf35d4f9ea668e85d221d0, type: 3}
+    InitialPoolSize: 40
+    BulletSpeed: 70
+    BulletDamage: 10
+    BulletMaxDistance: 120
+    BulletRadius: 0.5
+    HitMask:
+      serializedVersion: 2
+      m_Bits: 256
+    MaxAngle: 55
+    AngleFollowSpeed: 420
+    FireRate: 9

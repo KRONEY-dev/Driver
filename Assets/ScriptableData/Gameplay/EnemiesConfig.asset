@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7902c14e547b14248bdba2137a54ccc3, type: 3}
+  m_Name: EnemiesConfig
+  m_EditorClassIdentifier: Main.App::Driver.Data.Scriptable.EnemiesConfig
+  Enemies:
+  - EnemyType: 0
+    Prefab: {fileID: 260084735872912881, guid: ca13c4305310b884da536fcfa0b542ff, type: 3}
+    InitialPoolSize: 12
+    <MaxHealth>k__BackingField: 40
+    MoveSpeed: 3.6
+    TurnSpeed: 220
+    DamageToCar: 6
+    AggroRadius: 14
+    PatrolDistance: 2.5
+    PatrolSpeed: 1.2
+    PatrolPauseDuration: 1.5
+    PatrolPauseRandom: 1.5
+    OffscreenLifetime: 3

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6213f9849c947434bb99bd1612dd57da, type: 3}
+  m_Name: VfxConfig
+  m_EditorClassIdentifier: Main.App::Driver.Data.Scriptable.VfxConfig
+  Effects:
+  - Type: 0
+    Prefab: {fileID: 9011130091626601810, guid: 0347529ea543f2140af83f3a1bc25aee, type: 3}
+    InitialPoolSize: 12
+  - Type: 1
+    Prefab: {fileID: 4012236818831979112, guid: 924eff4ded8595442acba8149b17dbf0, type: 3}
+    InitialPoolSize: 6

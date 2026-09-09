@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa3ee91934806654cb8a99ce16f0f810, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: Main.App::Driver.Data.Scriptable.LevelConfig
+  DisplayName: Level 02
+  Length: 560
+  GroundTilePrefab: {fileID: 6111449176178384678, guid: d0f701c1faff68f4f91eb00b21b60cd7, type: 3}
+  GroundTileLength: 75
+  GroundPaddingBefore: 20
+  GroundPaddingAfter: 120
+  Spawns:
+  - EnemyType: 0
+    Count: 58
+    FromDistance: 70
+    ToDistance: 540
+    LateralRange: 7
